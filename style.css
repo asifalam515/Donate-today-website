@@ -84,3 +84,19 @@ hr{
 #education-bg{
     background-color:#FFF4D6 ;
 }
+.contribute{
+    display: flex;
+    margin-bottom: 50px;
+}
+.contribute-text{
+width: 40%;
+margin-left: 2%;
+margin-right: 100px;
+}
+.contribute-img{
+    width: 40%;
+}
+.contribute-img >img{
+    width: 100%;
+    border-radius: 5px;
+}
