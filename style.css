@@ -1,0 +1,86 @@
+*,html{
+box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+}
+.header{
+    background-image:url('./images/donation1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+   
+}
+.donate-now{
+    padding: 150px;
+    text-align: center;
+    color: white;
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+    background-color:#FF5959 ;
+    border-radius: 7px;
+    padding: 7px 20px 7px 20px;
+}
+.donate-today{
+    margin-bottom: 150px;
+
+}
+.donate-now-text,.other-amount{
+    text-align: center;
+    margin: 0% 20% 40px 20%;
+}
+.donate-now-tk{
+    margin: 0% 20% 40px 20%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+.selected-tk{
+    color: tomato;
+    background-color: #FFEEEE;
+    padding: 25px 20px 25px 20px;
+    border: 2px solid #ed0c0c;
+}
+#other-tk{
+    color: #C6C6C6;
+}
+hr{
+    margin-bottom: 20px;
+}
+
+/* donate plan section */
+.donate-plan{
+    text-align: center;
+    margin: 0% 20% 40px 20%;
+    /* color: #837979; */
+}
+.donate-plan-text{
+    margin-bottom: 30px;
+}
+#head{
+    color: black;
+}
+.donate-plan-icon{
+    display: flex;
+    gap: 5px;
+   justify-content: space-between; 
+   margin: 5px 10px 20px 10px;
+} 
+.food,.selter,.education{
+    height: 352px;
+    width: 360px;
+    background-color: #EEF6F7;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#selter-bg{
+    background-color: #FFEFEF;
+}
+#education-bg{
+    background-color:#FFF4D6 ;
+}
